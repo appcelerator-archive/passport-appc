@@ -21,18 +21,18 @@ The Appcelerator authentication strategy authenticates users using a Appcelerato
 the session data and calls `done` providing a user, as well as `options`
 specifying an optional Appcelerator Dashboard and callback URL.
 
-	passportAppc = require('passport-appc').Strategy;
+	AppcStrategy = require('passport-appc').Strategy;
 	
-    passport.use(new AppcStrategy({
-        appcURL: "https://360-preprod.cloud.appctest.com",
-        callbackURL: "https://something.cloud.appctest.com"
-      },
-      function(session, done) {
-        User.findOrCreate({ appcId: session.user.id }, function (err, user) {
-          return done(err, user);
-        });
-      }
-    ));
+	passport.use(new AppcStrategy({
+			appcURL: "https://360-preprod.cloud.appctest.com",
+			callbackURL: "https://something.cloud.appctest.com"
+		},
+		function(session, done) {
+			User.findOrCreate({ appcId: session.user.id }, function (err, user) {
+	  			return done(err, user);
+			});
+		}
+	));
 
 #### Authenticate Requests
 
