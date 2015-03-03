@@ -54,7 +54,7 @@ application:
 
 ## Tests
 
-    $ npm install --dev
+    $ npm install
     $ npm test
 
 # License
