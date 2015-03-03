@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fokkezb/passport-appc"
+    "url": "https://github.com/appcelerator/passport-appc"
   },
   "keywords": [
     "passport",
@@ -19,11 +19,17 @@
     "identity"
   ],
   "author": "Fokke Zandbergen",
+  "maintainers": [
+    "Fokke Zandbergen<fzandbergen@appcelerator.com>"
+  ],
+  "contributors": [{
+    "name": "Fokke Zandbergen"
+  }],
   "license": "Appcelerator Commercial",
   "bugs": {
-    "url": "https://github.com/fokkezb/passport-appc/issues"
+    "url": "https://github.com/appcelerator/passport-appc/issues"
   },
-  "homepage": "https://github.com/fokkezb/passport-appc",
+  "homepage": "https://github.com/appcelerator/passport-appc",
   "author": "Fokke Zandbergen",
   "dependencies": {
     "appc-platform-sdk": "^1.0.36",
