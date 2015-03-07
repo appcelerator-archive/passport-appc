@@ -1,6 +1,6 @@
 {
   "name": "passport-appc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Appcelerator authentication strategy for Passport.",
   "main": "./lib",
   "scripts": {
@@ -22,15 +22,16 @@
   "maintainers": [
     "Fokke Zandbergen<mail@fokkezb.nl>"
   ],
-  "contributors": [{
-    "name": "Fokke Zandbergen"
-  }],
+  "contributors": [
+    {
+      "name": "Fokke Zandbergen"
+    }
+  ],
   "license": "Appcelerator Commercial",
   "bugs": {
     "url": "https://github.com/appcelerator/passport-appc/issues"
   },
   "homepage": "https://github.com/appcelerator/passport-appc",
-  "author": "Fokke Zandbergen",
   "dependencies": {
     "appc-platform-sdk": "^1.0.38",
     "passport-strategy": "^1.0.0",
