@@ -38,6 +38,7 @@
     "pkginfo": "^0.3.0"
   },
   "devDependencies": {
+    "grunt-appc-js": "^0.3.0",
     "grunt-cli": "*",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-jscs": "^1.5.0",
